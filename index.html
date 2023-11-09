@@ -51,23 +51,22 @@
         border: solid darkcyan 1px;
         border-radius: 5px;
     }
-    .tabla{
-    border-collapse: collapse;
-    border-spacing: 0;
-    width: 100%;
-    display: table;
-    border: 1px solid #ccc;
-    margin: 2px;
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: gray;
+    .tabla {
+      border-collapse: collapse;
+      width: 100%;
+      display: table;
+      box-sizing:border-box;
+      text-indent: initial;
+      border: 1px solid #dddddd
     }
-    .tablas{
-        display: block;
-      overflow-x: auto;
+
+    .tabla th, .tabla td {
+      text-align: left;
+      padding: 8px;
+    }
+
+    .tabla tr:nth-child(even) {
+      background-color: #f1f1f1;
     }
 
 </style>
@@ -117,6 +116,9 @@
         </div>
         <div>
             <h3>All CSS Simple Selectors</h3>
+            <img src="./resources/selectors.png" alt="">
+        </div>
+    </div>
             <table class="tabla">
                 <tbody><tr>
                   <th style="width:20%">Selector</th>
